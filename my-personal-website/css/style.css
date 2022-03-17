@@ -1,0 +1,112 @@
+*{padding: 0; margin: 0;}
+
+body{
+    font-family: Roboto;
+    background-color: #000;
+}
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-icon img{
+   display: flex;
+   justify-content: flex-end; 
+   max-width: 90%;
+   padding-top: 60px;
+   padding-right: 200px;
+}
+
+.main-title h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+
+.second-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.list-of-services{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.icon img{
+    max-width: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.description{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-top: 150px;
+}
+
+.description h3{
+    font-size: 40px;
+}
+
+.list-of-services-reverse{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.list-of-services-reverse .description{
+    padding-right: 260px;
+}
+
+.final-icon img{
+    max-width: 20%;
+    padding-top: 150px;
+    padding-right: 620px;
+    padding-left: 620px;
+    padding-bottom: 50px;
+}
+
+.final-title{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.final-title h2{
+    padding-bottom: 70px;
+}
+
+.btn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+    padding: 30px 50px 30px 50px
+}
+
+@media (min-width: 300px){
+    .main-icon, .main-title, .list-of-services, .list-of-services-reverse{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .main-icon, .main-title, .list-of-services, .list-of-services-reverse{
+        width: 100%;
+    }
+}
+
+
+
